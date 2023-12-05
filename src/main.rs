@@ -31,5 +31,7 @@ pub(crate) fn input_file(day: i32, run_type: RunType) -> File {
 }
 
 fn main() {
-    println!("{:?}", days::day_1::run_part_1(input_file(1, Validate)))
+    println!("{:?}", days::day_1::run_part_1(input_file(1, Validate)));
+    println!("{:?}", days::day_2::run_part_1(input_file(2, Validate)));
+    println!("{:?}", days::day_2::run_part_2(input_file(2, Validate)));
 }
